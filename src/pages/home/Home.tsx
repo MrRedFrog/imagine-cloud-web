@@ -12,20 +12,19 @@ export default function Home (){
         <>
             <div className="h-svh min-w-full bg-black">
        
-                <div className="container flex h-svh mx-auto px-4 bg-black pt-20  mb-10">
-                    <div className="w-1/2 content-center  text-center justify-center items-center">
-                        <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-8xl text-white  w-max">NYX TECHNOLOGIES</h1>
-                        <p className="text-white text-1xl mt-4">"Tu Tiempo Importa, Nuestro Tecnología 
-                        Simplifica: ¡Vive más, Preocúpate menos!"</p>
+                <div className="flex h-screen mx-auto px-4 bg-black pt-20 mb-10 items-center justify-center">
+                    <div className="text-center">
+                        <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-8xl text-white">
+                            NYX TECHNOLOGIES
+                        </h1>
+                        <p className="text-white text-lg mt-4">
+                            "Tu Tiempo Importa, Nuestra Tecnología Simplifica: ¡Vive más, Preocúpate menos!"
+                        </p>
                         <br />
                         <button className="bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow">
                             Contáctanos
                         </button>
                     </div>
-                    <div className="w-1/2 h-auto content-center">
-                    
-                    </div>
-                  
                 </div>
                 <div className="container mx-auto px-4 h-auto py-3 mb-10 ">
                     <div className='w-full'>
